@@ -15,6 +15,7 @@ crash.*.log
 # to change depending on the environment.
 secrets.auto.tfvars
 *.tfvars.json
+.terraform.lock.hcl
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
@@ -25,7 +26,7 @@ override.tf.json
 
 # Ignore transient lock info files created by terraform apply
 .terraform.tfstate.lock.info
-.terraform.lock.hcl
+
 
 # Include override files you do wish to add to version control using negated pattern
 # !example_override.tf
